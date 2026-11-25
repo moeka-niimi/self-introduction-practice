@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自己紹介 - 新美萌夏</title>
+  </head>
+  <body>
+    <h1>自己紹介</h1>
+    <h2>プロフィール</h2>
+    <p>名前：にいみもえか</p>
+    <p>年齢：25歳</p>
+    <p>出身地：神奈川県</p>
+    <p>趣味：読書、旅行</p>
+    <h2>好きなもの</h2>
+    <ul>
+      <li>ポトフ</li>
+      <li>2色丼</li>
+      <li>味噌汁</li>
+    </ul>
+    <h2>今年の目標</h2>
+    <ol>
+      <li>体調管理と睡眠リズムを整え、毎日元気に活動する</li>
+      <li>
+        HTMLとCSSの基礎を身につけて、自分のポートフォリオやWebページを作れるようになる
+      </li>
+      <li>
+        毎日少しでもコードに触れる習慣を作り、わからないことは調べながら解決する力をつける
+      </li>
+    </ol>
+    <h2>リンク</h2>
+    <a href="https://github.com/moeka-niimi" target="_blank">私のGitHub</a>
+    <h2>好きな風景</h2>
+    <img src="landscape.jpg" alt="好きな風景" width="400">
+    <h2>お問い合わせ</h2>
+    <div>
+    <form action="/submit" method="post">
+      <label for="username">お名前：</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="山田太郎"
+        required
+      />
+      </div>
+      <div>
+      <label for="Inquiry Type">お問い合わせ種別：</label>
+      <select id="Inquiry Type" name="Inquiry Type">
+        <option value="">-- 選択してください --</option>
+        <option value="General inquiries">一般的なお問い合わせ</option>
+        <option value="Comments and Requests">ご意見・ご要望</option>
+      </select>
+      </div>
+      <div>
+      <label for="message">お問い合わせ内容: </label>
+      <textarea
+        id="message"
+        name="message"
+        cols="30"
+        rows="10"
+        required
+      ></textarea>
+      </div>
+      <div>
+      <button type="submit">送信ボタン</button>
+      </div>
+    </form>
+  </body>
+</html>
